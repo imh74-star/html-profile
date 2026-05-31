@@ -1,0 +1,101 @@
+/* General page styling */
+body {
+    background-color: #f8f3ec;
+    color: #222222;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #f47321;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Heading tag selector */
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+/* Paragraph tag selector */
+p {
+    font-size: 16px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #005030;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Nav a tag styling */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Nav hover effect */
+nav a:hover {
+    color: #f47321;
+    text-decoration: underline;
+}
+
+/* Main page layout */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Class 1: profile-card */
+.profile-card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Class 2: gallery-image */
+.gallery-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Link styling outside the nav */
+a {
+    color: #005030;
+}
+
+a:hover {
+    color: #f47321;
+}
+
+/* Footer styling */
+footer {
+    background-color: #005030;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
