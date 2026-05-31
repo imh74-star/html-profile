@@ -8,6 +8,12 @@
     <meta name="keywords" content="GitHub profile, HTML, student portfolio, University of Miami">
     <meta name="description" content="A personal profile webpage created for a class assignment using HTML tags and semantic structure.">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
     <title>Isa's GitHub Profile Page</title>
 </head>
 
@@ -31,7 +37,7 @@
 
     <main>
 
-        <section id="about">
+        <section id="about" class="profile-card"> 
             <h2>About Me</h2>
             <p>
                 I am a student at the <strong>University of Miami</strong>. I am interested in film,
@@ -43,10 +49,10 @@
                 I am learning how to build webpages using <em>Visual Studio Code</em> and GitHub.
             </p>
 
-            <img src="me.jpeg" alt="A profile picture of Isa" width="300">
+            <img class="gallery-image" src="me.jpeg" alt="A profile picture of Isa" width="300">
         </section>
 
-        <section id="interests">
+        <section id="interests" class="profile-card">
             <h2>My Interests</h2>
 
             <h3>Things I Enjoy</h3>
@@ -73,10 +79,10 @@
                 <em>creative</em> and technical.
             </p>
 
-            <img src="go canes.jpeg" alt="University campus image" width="300">
+            <img class="gallery-image" src="go%20canes.jpeg" alt="University campus image" width="300">
         </section>
 
-        <article id="goals">
+        <article id="goals" class="profile-card">
             <h2>My Goals</h2>
 
             <h3>Academic Goals</h3>
@@ -97,7 +103,7 @@
                 This page was created on <time datetime="2026-05-31">May 31, 2026</time>.
             </p>
 
-            <img src="travel.jpg" alt="Me in Rome" width="300">
+            <img class="gallery-image" src="travel.jpg" alt="Me in Rome" width="300">
         </article>
 
         <section>
